@@ -91,7 +91,7 @@ header li:first-child {
 /***** Layout *****/
 
 #main {
-	background-image: url('assets/images/dishes.jpg');
+	background-image: url('/app/assets/images/dishes.jpg');
 	height: 438px;
 }
 
