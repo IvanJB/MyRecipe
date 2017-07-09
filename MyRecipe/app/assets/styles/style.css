@@ -17,7 +17,7 @@ a {
 /***** Header Section *****/
 
 Header {
-	height: 150px;
+	height: 90px;
 	padding-top: 20px;
 }
 
@@ -31,41 +31,13 @@ li {
 	font-size: 1rem;
 }
 
-header li:first-child {
-	border-right: 1px solid #373535;
-}
-
-.left {
-	width: 320px;
-	float: left;
-}
-
-.left ul {
-	padding-left: 30px;
-	padding-top: 90px;
-}
-
-.right {
-	width: 320px;
-	float: right;
-}
-
-.right ul {
-    float: right;
-    padding-right: 30px;
-    padding-top: 90px;
-}
-
-#logo {
-    width: 320px;
-    float: left;
-    text-align: center;
+nav li a:hover {
     color: #b46363;
-    font-size: 2.25rem;
+    font-weight: 500;
 }
 
-#logo p {
-    margin: 0;
+.nav ul {
+	margin: 0 auto;
 }
 
 
@@ -91,8 +63,11 @@ header li:first-child {
 /***** Layout *****/
 
 .main {
-	background-image: url(app/assets/images/new-dishes.jpp);
-	height: 438px;
+	background-image: url(/MyRecipe/app/assets/images/dishes-assets/new-dishes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 438px;
 }
 
 .main p {
@@ -119,7 +94,7 @@ form {
 }
 
 #click {
-	height: 30px;
+	height: 31px;
 	border-top-right-radius: 5px;
 	border-bottom-right-radius: 5px;
 	border-style: none;
@@ -127,12 +102,16 @@ form {
 	margin-left: 0;
 	position: relative;
 	left: -5px;
-	top: 0.125px;
+	top: -2px;
 	background-color: #b46363;
 	color: #fff;
 	font-size: 0.55rem; /* 12/16px */
 	text-align: center;
 	text-transform: capitalize;
+}
+
+#click:hover {
+    cursor: pointer;
 }
 
 /***** Gallery *****/
@@ -162,7 +141,6 @@ form {
 .middle p {
 	color: #fff;
 }
-
 
 /***** Footer *****/
 
